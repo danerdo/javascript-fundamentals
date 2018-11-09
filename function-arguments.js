@@ -19,3 +19,10 @@ function daniel3() {
 }
 
 daniel3('Dan Rhyne');
+
+// destructuring!
+function daniel4({name}) {
+    console.log(`full name of daniel: ${name}`);
+}
+
+daniel4({name: 'Dan the Man'});
